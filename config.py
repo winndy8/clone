@@ -21,7 +21,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "7c72307ff7c7e44d2b416e551145f5ba")
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQB7iIRYmGsUgoQdl6EuYCFkIPnAp1K7Bch9LrRC6T-IyuvU-5RIfOwxbitxtAzvZIf6H2fgnDPKFJp3nhUYti2F3S9ZEK7KyLMlfvSVCvEP81on8end0Z_xDJXKbFVncpypuWLrr8vg9hBSVfdccAfpl9Yf3YYnxG_S21w1Kx1E1iDa8nexpxVil2hX4Nria4vmNd3gVDau85MIzYKfN3nEjfhk9NMlgncMhJyZNmWoNA0huV6UDrYGHrkO8h3aOHkxbCfg5TkN3rzt7S6HIe4jp9ZVKAd2evSP1mduINtPKgHScvO5rpE7axbPRgLheQdn7Hg9MlRSgfHRgLS26dxxAAAAATy6BAcA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQAhLEVj0zT3nbeQ_DrQf44p0FpFwJBP4rh3WRneIOTNqv_oA7rU7YE3aT5xFX8-RmKqalRvb36EEoHndyQgZOnaP9q1_wfsIeCbyZuE3KDMnA63Tmog6DJJ-Fd_AxC7Xj2vZm3R1iud61amWlizzYbWWO0r5TqFB9IXiX9gmNiFyCqVTN81T6AEYL-dCK0DOTiKSbb22rbRGJYUeLQCEBAdd7pv3bJK0RIRPq4EZdUud9RPpCf4U_6QTahmSWETCFWU_uRFTQ0FWz1o5o-3y5qJuyqNM8Ixwoq8tEXgazbx-j6nvE3xiW_0FoVe5FxtE1CMEJduY3VR_0oZ577NeByEAAAAATy6BAcA")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://clone:clone@cluster0.go11yez.mongodb.net/?retryWrites=true&w=majority")
